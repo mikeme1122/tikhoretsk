@@ -1,0 +1,105 @@
+body {
+    text-align: center;
+    font-family: 'Limelight', cursive;
+    color: #E4E4E4;
+    font-size: 30px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 3px 0px black;
+}
+h1, h2 {
+    font-style: bold;
+}
+a {
+    color: #E4E4E4;
+}
+#tikhoretsk:hover{
+    background-color: #686868;
+    padding: 10px 4px;
+}
+.heroSection{
+    background-image: url("images/holderHero.jpg");
+    background-size: cover;
+    height: 300px;
+    padding: 40px 40px ;
+    text-indent: solid #D0D0D0;
+}
+.img-activity{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#abc, #acb, #cbd {
+width: 250px;
+height: 250px;
+border-radius: 50%;
+}
+.activitiesSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.activityFirst{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+width: 300px; 
+padding-left: 190px;
+padding-top: 60px;
+}
+#abct:hover{
+    background-color: #707070;
+    box-shadow: 0px 0px 40px #dcdcdc;
+}
+#abc{
+    margin-left: auto;
+    margin-right: auto;  
+}
+.activitySecond{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px; 
+    padding-top: 60px;
+}
+#acb{
+    margin-left: auto;
+    margin-right: auto;
+}
+.activityThird{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    width: 300px;
+    padding-right: 30px; 
+    padding-bottom: 150px;
+}
+#cbd {
+    margin-left: auto;
+    margin-right: auto;
+}
+.activitiesSection{
+background-color: #707070;
+padding: 10px 50px;
+
+}
+.guideSection{
+    background-color: #6A788Cff;
+    width: 700px;
+    height: 550px;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#img-avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+#img-avatar:hover{
+    background-color: #707070;
+    box-shadow: 0px 0px 40px #dcdcdc;
+}
